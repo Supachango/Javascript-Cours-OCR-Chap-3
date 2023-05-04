@@ -1,3 +1,36 @@
+Skip to content
+Search or jump to…
+Pull requests
+Issues
+Codespaces
+Marketplace
+Explore
+ 
+@Supachango 
+OpenClassrooms-Student-Center
+/
+7697016-Front-End.1
+Public
+Fork your own copy of OpenClassrooms-Student-Center/7697016-Front-End.1
+Code
+Issues
+2
+Pull requests
+17
+Actions
+Projects
+Security
+Insights
+Beta Try the new code view
+7697016-Front-End.1/styles.css
+@aurelien-oc-mentorship
+aurelien-oc-mentorship Add for loop to code
+Latest commit 1dd35df on Oct 24, 2022
+ History
+ 1 contributor
+68 lines (63 sloc)  1 KB
+ 
+
 @import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
 
 body {
@@ -45,11 +78,39 @@ main {
 .fiches {
 	flex: 1;
 	margin: 8px;
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 4px;
 }
-.fiches img {
+.fiches article {
+	border: 1px solid black;
+	padding: 4px;
+}
+.fiches article img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 	max-width: 200px;
 }
-.fiches p {
+.fiches article p {
 	margin-top: 4px;
 	margin-bottom: 4px;
 }
+.fiches article h2 {
+	text-align: center;
+}
+Footer
+© 2023 GitHub, Inc.
+Footer navigation
+Terms
+Privacy
+Security
+Status
+Docs
+Contact GitHub
+Pricing
+API
+Training
+Blog
+About
+7697016-Front-End.1/styles.css at P3C3-Debut · OpenClassrooms-Student-Center/7697016-Front-End.1
